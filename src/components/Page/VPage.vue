@@ -1,11 +1,11 @@
 <template>
   <div class="page" v-for="page in pages" :key="page">
     <component
-      :id="index"
+      :id="blockIdx"
       :is="block.component"
       v-bind="{ ...block.props, ...block.attrs }"
-      v-for="(block, index) in blocks"
-      :key="index"
+      v-for="(block, blockIdx) in blocks.filter((b) => b.page === page)"
+      :key="blockIdx"
     />
     <hr />
   </div>

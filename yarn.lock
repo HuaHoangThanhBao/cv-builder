@@ -1384,6 +1384,11 @@
   resolved "https://registry.npmmirror.com/@types/trusted-types/-/trusted-types-2.0.3.tgz#a136f83b0758698df454e328759dbd3d44555311"
   integrity sha512-NfQ4gyz38SL8sDNrSixxU2Os1a5xcdFxipAFxYEuLUlvU2uDwS4NUpsImcf1//SlWItCVMMLiylsxbmNMToV/g==
 
+"@types/uuid@^8.3.4":
+  version "8.3.4"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.4.tgz#bd86a43617df0594787d38b735f55c805becf1bc"
+  integrity sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==
+
 "@types/webpack-env@^1.15.2":
   version "1.18.0"
   resolved "https://registry.npmmirror.com/@types/webpack-env/-/webpack-env-1.18.0.tgz#ed6ecaa8e5ed5dfe8b2b3d00181702c9925f13fb"
@@ -4799,6 +4804,11 @@ minipass@^3.1.1:
   dependencies:
     yallist "^4.0.0"
 
+mitt@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mitt/-/mitt-3.0.0.tgz#69ef9bd5c80ff6f57473e8d89326d01c414be0bd"
+  integrity sha512-7dX2/10ITVyqh4aOSVI9gdape+t9l2/8QxHrFmUXu4EEUpdlxl6RudZUPZoc+zuY2hk1j7XxVroIVIan/pD/SQ==
+
 mkdirp@^0.5.6:
   version "0.5.6"
   resolved "https://registry.npmmirror.com/mkdirp/-/mkdirp-0.5.6.tgz#7def03d2432dcae4ba1d611445c48396062255f6"
@@ -6695,6 +6705,14 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.npmmirror.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
+
+vue-uuid@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vue-uuid/-/vue-uuid-3.0.0.tgz#0c0ed8345040a78adad2185b40415979090079de"
+  integrity sha512-+5DP857xVmTHYd00dMC1c1gVg/nxG6+K4Lepojv9ckHt8w0fDpGc5gQCCttS9D+AkSkTJgb0cekidKjTWu5OQQ==
+  dependencies:
+    "@types/uuid" "^8.3.4"
+    uuid "^8.3.2"
 
 vue@^3.2.13:
   version "3.2.47"
